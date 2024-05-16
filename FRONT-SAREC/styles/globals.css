@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bottomFlex {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  border: 1px solid white; /* just for visualization */
+}
+#sideBarOption li,
+#sideBarOption a {
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.dashBoardContainer {
+  height: 100%;
+}
+
+.backgroundHomepage {
+  background: url('../public/sarecpagehome.gif') center center fixed;
+  background-size: cover;
+}
