@@ -17,11 +17,11 @@ export const SideBar: React.FC<Props> = ({ onSelect }) => {
     return (
         <div className="dashBoardContainer flex flex-col items-center top-5 w-full justify-between">
             <div>
-                <h1 className='font-bold text-2xl pb-20 pt-5'>DashBoard</h1>
-                <div id='sideBarOption' className='dashBoardContainer'>
+                <h1 className="font-bold text-2xl pb-20 pt-5">DashBoard</h1>
+                <div id="sideBarOption" className="dashBoardContainer">
                     <ul>
-                        <li><a className='hover:cursor-pointer' onClick={(e) => handleClick(e, 'payments')}>Pagos</a></li>
-                        <li><a className='hover:cursor-pointer' onClick={(e) => handleClick(e, 'history')}>Historial</a></li>
+                        <li><a className="hover:cursor-pointer" onClick={(e) => handleClick(e, 'payments')}>Pagos</a></li>
+                        <li><a className="hover:cursor-pointer" onClick={(e) => handleClick(e, 'history')}>Historial</a></li>
                     </ul>
                 </div>
             </div>
