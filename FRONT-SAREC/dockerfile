@@ -2,7 +2,7 @@ FROM node:14-alpine
 RUN mkdir -p /app
 WORKDIR /app
 COPY . .
-RUN npm install -g npm@10.8.0
+RUN npm install
 RUN npm install next-auth
 RUN npm install axios
 RUN npm cache clean --force
