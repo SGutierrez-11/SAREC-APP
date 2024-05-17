@@ -198,6 +198,15 @@ export const SearchIcon = ({
       strokeLinejoin="round"
       strokeWidth="2"
     />
-    <circle cx="10.5" cy="10.5" r="7.5" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" />
+    <circle
+      cx="10.5"
+      cy="10.5"
+      r="7.5"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+    />
   </svg>
 );
